@@ -1,0 +1,14 @@
+Project: ApplyWise - evidence-grounded internship application copilot
+Build League direction: Work & automation
+Author: Amish Chaturvedi (github.com/Amish23102006)
+
+Powered by BharatCode
+- Base URL: https://bharatcode.ai/api/model/v1 (OpenAI-compatible)
+- Model: qwen-3.8-27b
+- Endpoint: POST /chat/completions
+  1. Requirement extraction from a job/internship listing (JSON output)
+  2. Evidence-only application note, with one repair pass if the claim guard finds unsupported skills
+- API key: read from the BHARATCODE_API_KEY environment variable only; never committed or sent to the browser.
+
+Run: python applywise.py sample_listing.txt --profile sample_profile.md
+Web: pip install -r requirements.txt && uvicorn web:app

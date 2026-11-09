@@ -1,0 +1,17 @@
+AI Engineer Intern - Acme Robotics (fictional listing for the demo)
+Location: Bengaluru, onsite (5 days work from office)
+Duration: 6 months, immediate joiners preferred. Stipend: INR 30,000/month.
+
+What you'll do
+- Build LLM-powered agents and retrieval pipelines in Python
+- Ship REST APIs with FastAPI and deploy them with Docker
+- Evaluate model quality and track failures in production
+
+Must have
+- Python, REST APIs, LLMs, Git
+- Experience with RAG or vector databases
+
+Nice to have
+- Kubernetes, TypeScript, computer vision
+
+Eligibility: open to 2026 and 2027 graduates only.
